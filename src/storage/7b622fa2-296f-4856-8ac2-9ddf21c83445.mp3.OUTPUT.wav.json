@@ -1,0 +1,54 @@
+{
+	"systeminfo": "AVX = 1 | AVX2 = 1 | AVX512 = 0 | FMA = 1 | NEON = 0 | ARM_FMA = 0 | F16C = 1 | FP16_VA = 0 | WASM_SIMD = 0 | BLAS = 0 | SSE3 = 1 | VSX = 0 | COREML = 0 | ",
+	"model": {
+		"type": "small",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 768,
+			"head": 12,
+			"layer": 12
+		},
+		"text": {
+			"ctx": 448,
+			"state": 768,
+			"head": 12,
+			"layer": 12
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "D:\\workspace24\\lms\\voice2Context\\node_modules\\audio2textjs\\src\\models\\ggml-small.bin",
+		"language": "auto",
+		"translate": false
+	},
+	"result": {
+		"language": "jw"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:03,360"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 3360
+			},
+			"text": " ателей  PACARO  remedies for the cancer  Eternal Life  people,  family and friends.  freshmen."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,360",
+				"to": "00:00:07,520"
+			},
+			"offsets": {
+				"from": 3360,
+				"to": 7520
+			},
+			"text": " වවරුඩය ඔ මැ෋න් කිරස් මුළුඩුන්඙න්නූක්"
+		}
+	]
+}

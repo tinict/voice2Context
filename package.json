@@ -1,0 +1,32 @@
+{
+  "name": "voice2context",
+  "version": "1.0.0",
+  "description": "voice2Context",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/app/app.js",
+    "start:dev": "nodemon --exec node src/main.js"
+  },
+  "keywords": [
+    "voice2Context",
+    "convertVoiceToText"
+  ],
+  "type": "module",
+  "author": "TinNguyen",
+  "license": "MIT",
+  "dependencies": {
+    "audio2textjs": "^1.0.5",
+    "body-parser": "^1.20.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7",
+    "replicate": "^1.0.0"
+  }
+}
